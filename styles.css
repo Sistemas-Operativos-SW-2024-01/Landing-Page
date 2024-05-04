@@ -212,3 +212,75 @@ button:hover {
     color: blue;
     text-decoration: underline;
 }
+/* Estilos para la sección Nosotros */
+.nosotros-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.nosotros-section .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nosotros-section h2 {
+    margin-bottom: 20px;
+}
+
+.nosotros-section p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección Contacto */
+.contacto-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.contacto-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contacto-section h2 {
+    margin-bottom: 20px;
+}
+
+.contacto-section form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contacto-section form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contacto-section form input[type="text"],
+.contacto-section form input[type="email"],
+.contacto-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contacto-section form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto-section form button:hover {
+    background-color: #0056b3;
+}
+
